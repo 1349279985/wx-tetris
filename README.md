@@ -4,7 +4,7 @@
 
 ## 项目效果
 
-[微信效果图](https://p0.meituan.net/travelcube/f2307e1979221e994e519a29a63ff52e2380401.gif)
+![微信效果图](https://p0.meituan.net/travelcube/f2307e1979221e994e519a29a63ff52e2380401.gif)
 
 ## 针对 React 版的优化
 
