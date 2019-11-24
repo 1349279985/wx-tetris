@@ -1,0 +1,42 @@
+.logo {
+  width: 224px;
+  position: absolute;
+  top: 100px;
+  left: 12px;
+  text-align: center;
+  transform: scale(0.5);
+  .bg {
+    background: url(../../asset/img.png) no-repeat;
+    overflow: hidden;
+  }
+  .p {
+    width: 100%;
+    line-height: 1.4;
+    margin-top: 60px;
+    font-family: initial;
+    transform: scale(2);
+    letter-spacing: 6px;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255,.35);
+  }
+  .dragon {
+    width: 160px;
+    height: 172px;
+    margin: 0 auto;
+    background-position: 0 -200px;
+    &.r1,&.l1 {
+      background-position: 0 -200px;
+    }
+    &.r2,&.l2 {
+      background-position: -200px -200px;
+    }
+    &.r3,&.l3 {
+      background-position: -400px -200px;
+    }
+    &.r4,&.l4 {
+      background-position: -600px -200px;
+    }
+    &.l1,&.l2,&.l3,&.l4{
+      transform: scale(-1, 1);
+    }
+  }
+}

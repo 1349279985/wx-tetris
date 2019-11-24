@@ -1,0 +1,74 @@
+{
+  "lan": ["cn", "en", "fr", "fa"],
+  "default": "cn",
+  "data": {
+    "title": {
+      "cn": "俄罗斯方块",
+      "en": "T E T R I S"
+    },
+    "titleCenter": {
+      "cn": "俄罗斯方块",
+      "en": "TETRIS"
+    },
+    "point": {
+      "cn": "得分",
+      "en": "Point"
+    },
+    "highestScore": {
+      "cn": "最高分",
+      "en": "Max"
+    },
+    "lastRound": {
+      "cn": "上轮得分",
+      "en": "Last Round"
+    },
+    "cleans": {
+      "cn": "消除行",
+      "en": "Cleans"
+    },
+    "level": {
+      "cn": "级别",
+      "en": "Level"
+    },
+    "startLine": {
+      "cn": "起始行",
+      "en": "Start Line"
+    },
+    "next": {
+      "cn": "下一个",
+      "en": "Next"
+    },
+    "pause": {
+      "cn": "暂停",
+      "en": "Pause"
+    },
+    "sound": {
+      "cn": "音效",
+      "en": "Sound"
+    },
+    "reset": {
+      "cn": "重玩",
+      "en": "Reset"
+    },
+    "rotation": {
+      "cn": "旋转",
+      "en": "Rotation"
+    },
+    "left": {
+      "cn": "左移",
+      "en": "Left"
+    },
+    "right": {
+      "cn": "右移",
+      "en": "Right"
+    },
+    "down": {
+      "cn": "下移",
+      "en": "Down"
+    },
+    "drop": {
+      "cn": "掉落",
+      "en": "Drop"
+    }
+  }
+}

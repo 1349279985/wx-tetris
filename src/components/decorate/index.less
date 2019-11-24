@@ -1,0 +1,97 @@
+.decorate{
+  .h1{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font-weight: normal;
+    top: -12px;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    font-weight: 500;
+  }
+  .topBorder{
+    position:absolute;
+    height:10px;
+    width:100%;
+    position:absolute;
+    top:0px;
+    left:0px;
+    overflow:hidden;
+    .l {
+      float: left;
+    }
+    .r {
+      float: right;
+    }
+    .span{
+      display:block;
+      width:10px;
+      height:10px;
+      overflow:hidden;
+      background:#000;
+      &.mr{
+        margin-right:10px;
+      }
+      &.ml{
+        margin-left:10px;
+      }
+    }
+  }
+  .view{
+    position: absolute;
+    right: -70px;
+    top: 20px;
+    width: 44px;
+    .em {
+      display: block;
+      width: 22px;
+      height: 22px;
+      overflow: hidden;
+      float: left;
+    }
+    .p {
+      height: 22px;
+      clear: both;
+    }
+    &.l{
+      right: auto;
+      left: -70px;
+    }
+  }
+    .c {
+      display: block;
+      width: 20px;
+      height: 20px;
+      padding: 2px;
+      border: 2px solid #879372;
+      margin: 0 2px 2px 0;
+      float: left;
+      box-sizing: border-box;
+      &:after {
+        content: '';
+        display: block;
+        width: 12px;
+        height: 12px;
+        background: #879372;
+        overflow: hidden;
+      }
+
+      &.c {
+        border-color: #000;
+
+        &:after {
+          background: #000;
+        }
+      }
+
+      &.d {
+        border-color: #560000;
+
+        &:after {
+          background: #560000;
+        }
+      }
+    }
+}
