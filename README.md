@@ -2,10 +2,6 @@
 
 经典俄罗斯方块已经有了 [Vue版](https://github.com/Binaryify/vue-tetris) 和 [React版](https://github.com/chvin/react-tetris)，如今微信小程序很火爆，查了查并没有微信小程序版本，所以临时起意做一个小程序版本，保留原汁原味的经典味道。项目之初在 类Vue 的 [mpvue](https://github.com/Meituan-Dianping/mpvue) 和 类React 的 [Taro](https://github.com/NervJS/taro) 之间抉择；对比了两者，mpvue 最近基本没维护了，而 Taro 紧跟 着 React 的更新，有着和 `React16` 基本一致的特性，再加上团队的技术栈收敛，新项目都采用 React，同时个人也是偏好 React，嘿嘿，所以最终就选用了 Taro 来做。
 
-## 项目效果
-
-![微信效果图](https://p0.meituan.net/travelcube/f2307e1979221e994e519a29a63ff52e2380401.gif)
-
 ## 针对 React 版的优化
 
 其实游戏的介绍在 [React版](https://github.com/chvin/react-tetris) 已经有了详尽的介绍，这里就不再赘述啦～，想提到的几点就是
@@ -39,7 +35,11 @@ dev:weapp
 build:weapp
 
 ```
+于是乎就有了效果
 
+## 项目效果
+
+![微信效果图](https://p0.meituan.net/travelcube/f2307e1979221e994e519a29a63ff52e2380401.gif)
 
 ## 后续待办计划
 
