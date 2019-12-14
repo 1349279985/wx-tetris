@@ -14,7 +14,7 @@ const middlewares = [
 ]
 
 if (process.env.NODE_ENV === 'development' && process.env.TARO_ENV !== 'quickapp') {
-  middlewares.push(require('redux-logger').createLogger())
+  // middlewares.push(require('redux-logger').createLogger())
 }
 
 const enhancer = composeEnhancers(

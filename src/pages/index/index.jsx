@@ -40,7 +40,7 @@ class Index extends Component {
   render () {
     return (
       <View className='app'>
-        <View className={classnames({ '.rect': true, '.drop': this.props.drop })}>
+        <View className={classnames({ 'rect': true, 'drop': this.props.drop })}>
           <Decorate />
           <View className='screen'>
             <View className='panel'>

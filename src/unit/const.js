@@ -1,7 +1,7 @@
 import { List } from 'immutable';
-import i18n from '../../i18n.json';
+import i18nConfig from '../../i18n.json';
 
-const blockShape = {
+export const blockShape = {
   I: [
     [1, 1, 1, 1],
   ],
@@ -31,7 +31,7 @@ const blockShape = {
   ],
 };
 
-const origin = {
+export const origin = {
   I: [[-1, 1], [1, -1]],
   L: [[0, 0]],
   J: [[0, 0]],
@@ -41,19 +41,19 @@ const origin = {
   T: [[0, 0], [1, 0], [-1, 1], [0, -1]],
 };
 
-const blockType = Object.keys(blockShape);
+export const blockType = Object.keys(blockShape);
 
-const speeds = [800, 650, 500, 370, 250, 160];
+export const speeds = [800, 650, 500, 370, 250, 160];
 
-const delays = [50, 60, 70, 80, 90, 100];
+export const delays = [50, 60, 70, 80, 90, 100];
 
-const fillLine = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1];
+export const fillLine = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1];
 
-const blankLine = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+export const blankLine = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 
-const maxPoint = 999999;
+export const maxPoint = 999999;
 
-const blankMatrix = (() => {
+export const blankMatrix = (() => {
   const matrix = [];
   for (let i = 0; i < 20; i++) {
     matrix.push(List(blankLine));
@@ -61,29 +61,11 @@ const blankMatrix = (() => {
   return List(matrix);
 })();
 
-const clearPoints = [100, 300, 700, 1500];
+export const clearPoints = [100, 300, 700, 1500];
 
-const StorageKey = 'WX_TETRIS';
+// 每消除eachLines行, 增加速度
+export const eachLines = 20;
 
-const lastRecord = false;
+export const i18n = i18nConfig.data;
 
-const eachLines = 20; // 每消除eachLines行, 增加速度
-
-// eslint-disable-next-line import/no-commonjs
-module.exports = {
-  blockShape,
-  origin,
-  blockType,
-  StorageKey,
-  lastRecord,
-  blankMatrix,
-  speeds,
-  blankLine,
-  clearPoints,
-  eachLines,
-  i18n: i18n.data,
-  lan: i18n.default,
-  delays,
-  fillLine,
-  maxPoint,
-};
+export const lan = i18nConfig.default;

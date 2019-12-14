@@ -109,7 +109,7 @@ const Logo = ({ cur, reset }) => {
   return (
     <View className='logo' style={{ display: display }}>
       <View className={cn({ bg: true, 'dragon': true, [style]: true })} />
-      <View className='p'>{i18n.titleCenter[lan]}</View>
+      <View className='p'>{i18n.title[lan]}</View>
     </View>
   );
 }
