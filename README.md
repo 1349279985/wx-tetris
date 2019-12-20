@@ -44,15 +44,15 @@ npm run build:weapp
 
 ### 开局动画
 
-![开局图](https://p0.meituan.net/travelcube/edf47e04ea8843c1c5d725725ce01c72484444.png)
+![开局图](https://p0.meituan.net/travelcube/c22f4828bc60cd464e8edb8907c1b94b133069.png)
 
 ### 游戏中
 
-![游戏中图](https://p0.meituan.net/travelcube/db3ada8a9398220916ae4e7357e6b6aa492805.png)
+![游戏中图](https://p0.meituan.net/travelcube/3e4095022f3d0acce8812ff09ccc0ac1134942.png)
 
 ### 消除行
 
-![游戏中图](https://p0.meituan.net/travelcube/504a9e0014ca1b1896198e82ff7f73ed492974.png)
+![游戏中图](https://p0.meituan.net/travelcube/281acae087ad5f72d470df354e4565ee136690.png)
 
 ### 游戏试玩
 
