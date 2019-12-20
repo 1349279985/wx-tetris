@@ -39,7 +39,6 @@ npm run dev:weapp
 npm run build:weapp
 
 ```
-于是乎就有了效果
 
 ## 项目效果
 
@@ -51,9 +50,13 @@ npm run build:weapp
 
 ![游戏中图](https://p0.meituan.net/travelcube/db3ada8a9398220916ae4e7357e6b6aa492805.png)
 
+### 消除行
+
+![游戏中图](https://p0.meituan.net/travelcube/504a9e0014ca1b1896198e82ff7f73ed492974.png)
+
 ### 游戏试玩
 
-![微信效果图](https://p1.meituan.net/travelcube/524e4bee6e69d9870c13db55d84ee7a31800364.gif)
+![试玩图](https://p1.meituan.net/travelcube/524e4bee6e69d9870c13db55d84ee7a31800364.gif)
 
 ## 后续待办计划
 
