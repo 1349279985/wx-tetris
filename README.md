@@ -53,7 +53,7 @@ npm run build:weapp
 
 ### 游戏试玩
 
-![微信效果图](https://p0.meituan.net/travelcube/f2307e1979221e994e519a29a63ff52e2380401.gif)
+![微信效果图](https://p1.meituan.net/travelcube/524e4bee6e69d9870c13db55d84ee7a31800364.gif)
 
 ## 后续待办计划
 
